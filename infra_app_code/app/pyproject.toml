@@ -1,0 +1,13 @@
+[tool.poetry]
+authors = ["Andre Sionek <andre@sionek.com>"]
+name = "app"
+description = "Runtime dependencies"
+keywords = ['cdk', 'iac', 'infrastructure', 'devops', 'python', 'backend', "platform"] # noqa
+readme = "README.md"
+homepage = "https://sionek.com/"
+version = "0.0.0"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+boto3-stubs = {extras = ["s3"], version = "^1.33.6"}

@@ -1,0 +1,17 @@
+[tool.poetry]
+authors = ["Andre Sionek <andre@sionek.com>"]
+name = "best_practices"
+description = "Infrastructure Dependencies"
+keywords = ['cdk', 'iac', 'infrastructure', 'devops', 'python', 'backend', "platform"] # noqa
+readme = "README.md"
+homepage = "https://sionek.com/"
+version = "0.0.0"
+
+packages = [
+  { include = "app", from = "." },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aws-cdk-lib = "^2.99.0"
+app = {path = "app", develop = true}
