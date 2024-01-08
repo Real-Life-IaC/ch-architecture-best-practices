@@ -18,5 +18,4 @@ class MyStack(cdk.Stack):
         OrgBucket(
             scope=self,
             id="MyBucket",
-            name="my-bucket",
         )
