@@ -1,10 +1,10 @@
 [tool.poetry]
-authors = ["Andre Sionek <andre@sionek.com>"]
+authors = ["Andre Sionek <andre@real-life-iac.com>"]
 name = "best_practices"
 description = "Multi Accounts"
 keywords = ['cdk', 'iac', 'infrastructure', 'devops', 'python', 'backend', "platform"] # noqa
 readme = "README.md"
-homepage = "https://sionek.com/"
+homepage = "https://real-life-iac.com/"
 version = "0.0.0"
 
 [tool.poetry.dependencies]
