@@ -10,4 +10,4 @@ version = "0.0.0"
 [tool.poetry.dependencies]
 python = "^3.11"
 aws-cdk-lib = "^2.99.0"
-cdk-constructs = {git = "https://github.com/Real-Life-Infrastructure-as-Code/cdk-constructs.git", rev = "latest"}
+constructs-package = {git = "https://github.com/Real-Life-IaC/cdk-constructs.git", rev = "0.5.0"}
